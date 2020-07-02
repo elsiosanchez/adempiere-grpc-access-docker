@@ -5,13 +5,13 @@ ADempiere Access gRPC Docker Server
 
 You will need use a file with a structure like it: [access_connection.yaml](access_connection.yaml)
 ```yaml
- 
+
 server:
     port: 50050
 database:
     host: localhost
     port: 5432
-    name: databaseName
+    name: "database"
     user: adempiere
     password: adempiere
     type: PostgreSQL
